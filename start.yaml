@@ -39,7 +39,7 @@ services:
         - KAFKA_OUTPUT_TOPIC=fires
       volumes:
         - ./logstash/pipeline/fires.conf:/usr/share/logstash/pipeline/fires.conf
-        - ./logstash/pipeline/heartbeat.conf:/usr/share/logstash/pipeline/heartbeat.conf
+        - ./logstash/pipeline/weather.conf:/usr/share/logstash/pipeline/weather.conf
         - ./logstash/pipeline/pipelines.yml:/usr/share/logstash/config/pipelines.yml
         - ./logstash/csv:/usr/share/logstash/csv
       depends_on:

@@ -1,6 +1,6 @@
 - pipeline.id: fires-pip
   path.config: "/usr/share/logstash/pipeline/fires.conf"
   #pipeline.workers: 3
-- pipeline.id: generator-pip
-  path.config: "/usr/share/logstash/pipeline/heartbeat.conf"
+- pipeline.id: weather-pip
+  path.config: "/usr/share/logstash/pipeline/weather.conf"
   #queue.type: persisted
