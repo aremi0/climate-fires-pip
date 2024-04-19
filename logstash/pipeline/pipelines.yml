@@ -1,5 +1,5 @@
 - pipeline.id: fires-pip
-  path.config: "/usr/share/logstash/pipeline/fires.conf"
+  path.config: "/usr/share/logstash/pipeline/fires123.conf"
   #pipeline.workers: 3
 - pipeline.id: weather-pip
   path.config: "/usr/share/logstash/pipeline/weather.conf"
